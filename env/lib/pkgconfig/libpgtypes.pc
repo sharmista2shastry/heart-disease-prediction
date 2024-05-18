@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.17
+Requires: 
+Requires.private: 
+Cflags: -I/Users/sharmistashastry/Desktop/Self Projects/ML Projects/heart-disease-project/env/include
+Libs: -L/Users/sharmistashastry/Desktop/Self Projects/ML Projects/heart-disease-project/env/lib -lpgtypes
+Libs.private: -L/Users/sharmistashastry/Desktop/Self Projects/ML Projects/heart-disease-project/env/lib -lpgcommon -lpgport -lm

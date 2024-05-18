@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Users/sharmistashastry/Desktop/Self Projects/ML Projects/heart-disease-project/env/bin/python -m PyQt5.pyrcc_main ${1+"$@"}

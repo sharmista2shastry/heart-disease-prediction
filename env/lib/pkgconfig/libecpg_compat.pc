@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 12.17
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/Users/sharmistashastry/Desktop/Self Projects/ML Projects/heart-disease-project/env/include
+Libs: -L/Users/sharmistashastry/Desktop/Self Projects/ML Projects/heart-disease-project/env/lib -lecpg_compat
+Libs.private: -L/Users/sharmistashastry/Desktop/Self Projects/ML Projects/heart-disease-project/env/lib -lpgcommon -lpgport -lpq -lm
